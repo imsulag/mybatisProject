@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<div id="header" th:fragment="naviFragment">
+		상단메뉴<br>
+		/fragments/naviFragment.html<br><br><br>
+		<a th:href="@{/member/addMember}">회원가입</a>
+		<a th:href="@{/member/memberList}">회원목록</a>
+		<a th:href="@{/goods/addgoods}">상품등록</a>
+		<a th:href="@{/goods/goodsList}">상품조회</a>
+	</div>
+</html>
